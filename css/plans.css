@@ -1,0 +1,48 @@
+.plans{
+    grid-template-columns: repeat(auto-fill,minmax(450px,1fr));
+}
+@media (max-width: 767px) {
+    .plans{
+        grid-template-columns: minmax(200px,1fr);
+    }
+}
+.plan .type{
+    border: 3px solid white;
+}
+.plan .type h4{
+    font-size: 22px;
+}
+.plan .type span{
+    font-size: 32px;
+}
+.plan .type span i{
+    font-size: 18px;
+    top: 0px;
+    left: -12px;
+}
+.plan:first-of-type .type{
+    outline: 3px solid var(--green-color);
+}
+.plan:nth-of-type(2) .type{
+    outline: 3px solid var(--blue-color);
+}
+.plan:nth-of-type(3) .type{
+    outline: 3px solid var(--orange-color);
+}
+.plan ul li div i{
+    font-size: 18px;
+}
+.plan ul li > i{
+    color: var(--grey-color);
+}
+
+
+
+
+
+
+
+
+
+
+

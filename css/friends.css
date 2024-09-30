@@ -1,0 +1,47 @@
+.friends-page{
+    grid-template-columns: repeat(auto-fill, minmax(300px,1fr));
+}
+@media (max-width: 767px) {
+    .friends-page{
+        grid-template-columns: minmax(200px,1fr);
+        gap: 10px;
+        margin: 10px;
+    }
+}
+.friend > i{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 10px;
+}
+.friend > i:first-of-type{
+    left: 10px;
+}
+.friend > i:nth-of-type(2){
+    left: 45px;
+}
+.friend > i:hover{
+    background-color: var(--blue-color);
+    color: white;
+    font-weight: 600;
+}
+.friend div img{
+    margin-top: 20px;
+    width: 100px;
+    height: 100px;
+}
+.friend div span i{
+    width: 10px;
+    height: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
